@@ -7,16 +7,6 @@ License:       NCSA
 URL:           https://github.com/klange/nyancat
 Source0:       %{URL}/archive/%{version}/%{name}-%{version}.tar.gz
 
-# PATCHES FROM SOURCE GIT:
-
-# Can now adjust image refresh rate
-# Author: Tyler Cromwell <tyler@csh.rit.edu>
-Patch0001: 00-0001-Can-now-adjust-image-refresh-rate.patch
-
-# Converted spaces to tabs, and changed to setting a delay instead of a speed up amount
-# Author: Tyler Cromwell <tyler@csh.rit.edu>
-Patch0002: 01-0001-Converted-spaces-to-tabs-and-changed-to-setting-a-de.patch
-
 
 BuildRequires: make
 BuildRequires: gcc
